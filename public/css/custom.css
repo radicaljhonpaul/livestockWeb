@@ -1,0 +1,253 @@
+.footer {
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+/* Health Content | Systems */
+.content {
+    max-height: 200px;
+    /* height: 100%; */
+    padding: 20px 20px 10px;
+    color: gray;
+}
+
+.content:hover{
+    color: #f39c12;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.searching {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.modal-text-color-gray{
+    color: #575757;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-progress {
+    cursor: progress;
+}
+
+  
+.invalid-checked {
+    display: block;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #e3342f;
+}
+
+.toggleBtnPass{
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+    border-top:1px solid #ced4da;
+    border-bottom:1px solid #ced4da;
+    border-right:1px solid #ced4da;
+    padding-left: 1em;
+}
+
+/* Images */
+.image-parent {
+    max-width: 100px;
+    min-height: 100px;
+}
+
+/* COLORS */
+
+.color-1-yellow {
+    color: #ffd254;
+}
+
+.color-2-gray {
+    color: #7b6d62;
+}
+
+.color-3-brown {
+    color: #99806b;
+}
+
+.color-4-white {
+    color: #ede5d9;
+}
+
+.color-5-orange {
+    color: #d56f27;
+}
+
+.color-6-red {
+    color: #78221e;
+}
+
+.color-7-light-red-gray {
+    color: #dec7c0;
+}
+
+.color-8-light-red-white {
+    color: #fde2da;
+}
+
+/* BG COLOR */
+
+.bg-color-1-yellow {
+    background-color: #ffd254;
+}
+
+.bg-color-2-gray {
+    background-color: #7b6d62;
+}
+
+.bg-color-3-brown {
+    background-color: #99806b;
+}
+
+.bg-color-4-white {
+    background-color: #ede5d9;
+}
+
+.bg-color-5-orange {
+    background-color: #d56f27;
+}
+
+.bg-color-6-red {
+    background-color: #78221e;
+}
+
+.bg-color-7-light-red-gray {
+    background-color: #dec7c0;
+}
+
+.bg-color-8-light-red-white {
+    background-color: #efede6;
+    /* background-color: #f5e5e1; */
+    /* background-color: #fde2da; */
+}
+
+/* Badge */
+
+.badge-custom {
+    color: #d56f27;
+    background-color: #fff;
+}
+
+.badge-custom-inverted {
+    color: #fff;
+    background-color: #d56f27;
+}
+
+.badge-custom-yellow {
+    color: #fff;
+    background-color: #ffd254;
+}
+
+
+
+/* BUTTTONS */
+
+.btn-outline-red {
+    color: #78221e !important;
+    border-color: #78221e !important;
+}
+
+.btn-outline-red:hover {
+    color: #fff !important;
+    background-color: #78221e;
+    border-color: #78221e;
+}
+
+.btn-outline-red:focus, .btn-outline-red.focus {
+    box-shadow: 0 0 0 0 rgba(120, 34, 30, 0.5);
+}
+
+.btn-outline-red.disabled, .btn-outline-red:disabled {
+    color: #78221e;
+    background-color: transparent;
+}
+
+
+.btn-outline-brown {
+    color: #d56f27 !important;
+    border-color: #d56f27 !important;
+}
+
+.btn-outline-brown:hover {
+    color: #fff !important;
+    background-color: #d56f27;
+    border-color: #d56f27;
+}
+
+.btn-outline-brown:focus, .btn-outline-brown.focus {
+    box-shadow: 0 0 0 0 rgba(213, 111, 39, 0.5);
+}
+
+.btn-outline-brown.disabled, .btn-outline-brown:disabled {
+    color: #d56f27;
+    background-color: transparent;
+}
+
+.btn-outline-yellow {
+    color: #ffd254 !important;
+    border-color: #ffd254 !important;
+}
+
+.btn-outline-yellow:hover {
+    color: #fff !important;
+    background-color: #ffd254;
+    border-color: #ffd254;
+}
+
+.btn-outline-yellow:focus, .btn-outline-yellow.focus {
+    box-shadow: 0 0 0 0 rgba(255, 210, 84, 0.5);
+}
+
+.btn-outline-yellow.disabled, .btn-outline-yellow:disabled {
+    color: #ffd254;
+    background-color: transparent;
+}
+
+/* BORDER RADIUS */
+
+.border-radius-10rem {
+    border-radius: 10rem !important;
+}
+
+
+/* ------------------- File Input ------------------------------------------- */
+
+.file-upload .file-upload-select {
+	display: block;
+	color: #dbdbdb;
+	cursor: pointer;
+	text-align: left;
+	background: #78221e;
+	overflow: hidden;
+	position: relative;
+	border-radius: 6px;
+}
+.file-upload .file-upload-select .file-select-button {
+	background: #521512;
+	padding: 10px;
+	display: inline-block;
+}
+.file-upload .file-upload-select .file-select-name {
+	display: inline-block;
+	padding: 10px;
+}
+.file-upload .file-upload-select:hover .file-select-button {
+	background: #78221e;
+	color: #ffffff;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+}
+.file-upload .file-upload-select input[type="file"] {
+	display: none;
+}

@@ -1,0 +1,5 @@
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `role`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `current_team_id`, `profile_photo_path`, `created_at`, `updated_at`) VALUES
+(1, 'JHON PAUL AMPER QUIÑAL', 'ceojhonpaul@gmail.com', NULL, 'pcc_admin', '$2y$10$gDc5G0E7iF31axLC2kOhu.krwRWS76RVheuxg69xSIvfDhfzv8WLq', NULL, NULL, NULL, NULL, NULL, '2021-06-06 19:05:40', '2021-06-06 19:05:40'),
+(2, 'Hannah Rubio', 'hannah@gmail.com', NULL, 'pcc_hq', '$2y$10$gAx5ddqaF4hCrnLEAjyqquM8qW6fW43oYGN4orLLqOgp6Z40R.qVm', NULL, NULL, NULL, NULL, NULL, '2021-06-07 09:28:47', '2021-06-07 09:28:47'),
+(3, 'Cristine Violango', 'cristine@gmail.com', NULL, 'pcc_vet_field', '$2y$10$ZfS/T87r/8FgXfLwa6Q/MuO9q1xC.ZfNn95VDVadcUCPa32nQnDy2', NULL, NULL, NULL, NULL, NULL, '2021-06-08 01:10:06', '2021-06-08 01:10:06'),
+(4, 'Lovelyn Catalan', 'llc@gmail.com', NULL, 'pcc_ext_workers', '$2y$10$.3CuMIyrbl0r8p5dvWZ6nOBjhaxK3i0GdVv8aiEZwOnuWxP3zUR5S', NULL, NULL, NULL, NULL, NULL, '2021-06-08 01:10:45', '2021-06-08 01:10:45');

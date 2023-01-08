@@ -1,0 +1,65 @@
+-- MariaDB dump 10.19  Distrib 10.4.19-MariaDB, for Win64 (AMD64)
+--
+-- Host: 127.0.0.1    Database: livestockweb
+-- ------------------------------------------------------
+-- Server version	10.4.19-MariaDB
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `categories`
+--
+
+LOCK TABLES `categories` WRITE;
+/*!40000 ALTER TABLE `categories` DISABLE KEYS */;
+INSERT INTO `categories` VALUES (1,'2021-06-17 16:00:00',NULL,'Grasses'),(2,'2021-06-17 16:00:00',NULL,'Legume'),(3,'2021-06-17 16:00:00',NULL,'Agro-industrial by-products'),(4,'2021-06-17 16:00:00',NULL,'Vitamin and Pre-mineral premixes'),(5,'2021-06-17 16:00:00',NULL,'Non-conventional feed');
+/*!40000 ALTER TABLE `categories` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `ingredient_srp_year`
+--
+
+LOCK TABLES `ingredient_srp_year` WRITE;
+/*!40000 ALTER TABLE `ingredient_srp_year` DISABLE KEYS */;
+INSERT INTO `ingredient_srp_year` VALUES (1,NULL,NULL,1,1,15.00),(2,NULL,NULL,1,2,20.00),(3,NULL,NULL,2,1,25.00),(4,NULL,NULL,2,2,30.00),(5,NULL,NULL,3,1,35.00),(6,NULL,NULL,3,2,40.00),(7,NULL,NULL,4,1,45.00),(8,NULL,NULL,4,2,50.00);
+/*!40000 ALTER TABLE `ingredient_srp_year` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `ingredients`
+--
+
+LOCK TABLES `ingredients` WRITE;
+/*!40000 ALTER TABLE `ingredients` DISABLE KEYS */;
+INSERT INTO `ingredients` VALUES (1,NULL,NULL,'Grass Type A',1.00,3.00,5.00,7.00,9.00,11.00,1),(2,NULL,NULL,'Grass Type B',2.00,4.00,6.00,8.00,10.00,12.00,1),(3,NULL,NULL,'Legume A',10.00,11.00,12.00,13.00,14.00,15.00,2),(4,NULL,NULL,'Legume B',16.00,17.00,18.00,19.00,20.00,21.00,2);
+/*!40000 ALTER TABLE `ingredients` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `srp_years`
+--
+
+LOCK TABLES `srp_years` WRITE;
+/*!40000 ALTER TABLE `srp_years` DISABLE KEYS */;
+INSERT INTO `srp_years` VALUES (1,'2019',NULL,NULL),(2,'2020',NULL,NULL);
+/*!40000 ALTER TABLE `srp_years` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2021-06-23 18:24:38
